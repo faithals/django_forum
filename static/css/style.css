@@ -14,22 +14,28 @@ body {
     border-right: 1px solid #ccc;
 }
 
-.header img {
-    float: left;
-    width: 75px;
-    height: 75px;
-  }
-
-  .header h1 {
-    position: relative;
-    top: 18px;
-    left: 10px;
-    text-align: center;
-  }
-
 /*
 Post
 *******************/
+
+
+
+.header {
+    display: flex;
+    margin: 0 auto;
+    max-width: 600px;
+    border: 1px solid #ccc;
+}
+
+.header img.logo {
+    width: 10%;
+    padding-left: 10px;
+}
+
+.header h1 {
+    padding-left: 20px;
+    font-size: 23px;
+}
 
 .post_form {
     padding: 20px 40px;
@@ -103,9 +109,34 @@ posts li .menu a {
 .posts li .name_body .datetime {
     color: gray;
 }
+.posts li .name_body .image {
+    width: 80%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    border: 1px solid rgb(197,199,201);
+}
 
 @media screen and (max-width: 500px) {
     .posts li .name_body .name {
         font-size: 20px;
     }
+}
+
+/*********LIKE***********/
+.content .posts .like_list{
+    display:flex;
+    position: absolute;
+    top: 91%;
+    left: 20%;
+}
+.content .posts .like_list img{
+    width: 30px;
+    margin: 5px;
+}
+.content .posts .like_list h2 {
+    font-size: 2vh;
+    margin: 13px;
 }
