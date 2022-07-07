@@ -21,18 +21,18 @@
         {% csrf_token %}
         <input type="text" name="name" placeholder="Name" value="{{posts.name}}"required/><br />
         <input type="text" name="body" value="{{posts.body}}" />
-        <!-- {% if posts.image.url %}
+        {% if posts.image.url %}
         <img class="Image" src="{{posts.image.url}}" style="width: 30%" />
         {% endif %}
         <div class="file">
           <input type="file" id="file" name="image" />
-        </div> -->
+        </div>
         <br />
         <br />
         <div class="tweet">
           <!-- <input class="img_upload" type="file" name="image" /> -->
           <a href="{% url 'index' %}" id="cancel">Cancel</a>
-          <input id="button" type="submit" value="Update" />
+          <input class="update" id="button" type="submit" value="Update" />
         </div>
       </form>
     </section>

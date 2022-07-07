@@ -21,13 +21,13 @@ def index(request):
             return HttpResponseRedirect(form.errors.as_json())
 
     # Get all posts, limit = 20
-    post= Post.objects.all()[:20]
+    post= Post.objects.all().order_by("-created_at")[:20]
 
     # Show
     return render(request, 'posts.html',
                     {'posts': post})
 
-                    
+
 def likes(request, post_id):
     likedtweet = Post.objects.get(id=post_id)
     likedtweet.like += 1

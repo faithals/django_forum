@@ -59,10 +59,15 @@ Post
     padding: 0;
 }
 
+.posts{
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
 .posts li {
     position: relative;
     display: flex;
     border-bottom: 1px solid #ccc;
+
     padding: 20px 40px;
     list-style: none;
 }
@@ -139,4 +144,20 @@ posts li .menu a {
 .content .posts .like_list h2 {
     font-size: 2vh;
     margin: 13px;
+}
+
+a#cancel, button {
+    border: 1px solid #ccc;
+    padding: 7px;
+    text-decoration: none;
+    color: white;
+    background-color: #0baae6;
+    border-radius: 50px;
+}
+
+input#button {
+    color: white;
+    background-color: black;
+    width: 63px;
+    border-radius: 50px;
 }
