@@ -68,7 +68,7 @@ Post
     display: flex;
     border-bottom: 1px solid #ccc;
 
-    padding: 20px 40px;
+    padding: 60px 40px;
     list-style: none;
 }
 
@@ -153,6 +153,7 @@ a#cancel, button {
     color: white;
     background-color: #0baae6;
     border-radius: 50px;
+    margin-left: 25px;
 }
 
 input#button {
