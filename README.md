@@ -21,7 +21,7 @@ Tech used :
           * Cloudinary (To host uploaded images on CDN)
           
           
- [Live Heroku Deployment](https://twitter-clone-faith.herokuapp.com/)
+ [Live Heroku Deployment](https://twitterfaith.herokuapp.com/)
  
  
 ##Screenshot.
