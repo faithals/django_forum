@@ -25,3 +25,4 @@ Tech used :
  
  
 ##Screenshot.
+<img width="1274" alt="Screen Shot 2022-07-08 at 1 16 48 PM" src="https://user-images.githubusercontent.com/106145054/178064548-f3fca630-38e8-4ba5-bcfe-c962db67fabd.png">
